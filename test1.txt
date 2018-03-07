@@ -1,1 +1,14 @@
-Testing stuff out, making some files for repo
+
+md basic_repo
+cd basic_repo
+git init
+copynul test1.txt
+git remote add origin https://github.com/micarney/basic_repo.git
+edit text on test1.txt
+git add test1.txt
+git status
+git commit -m"testing p1"
+git push origin master
+
+
+I'm back making changes
